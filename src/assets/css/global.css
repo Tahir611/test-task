@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900');
+
+/* BACKGROUND */
+
+.main {
+    font-family: 'Inter';
+}
+
+.dark-main {
+    font-family: 'Inter';
+}
+
+.main::before {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 65%;
+    background-color: #E7E8F0;
+    height: 1200px;
+    top: 0;
+
+}
+
+.dark-main::before {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 65%;
+    background-color: #000;
+    height: 1200px;
+    top: 0;
+
+}
+
+.main::after {
+    background-color: #211F50;
+    position: absolute;
+    right: 0;
+    content: '';
+    top: 0;
+    width: 35%;
+    height: 1200px;
+}
+
+.dark-main::after {
+    background-color: #E2A4EC;
+    position: absolute;
+    right: 0;
+    content: '';
+    top: 0;
+    width: 35%;
+    height: 1200px;
+}
+
+/* NAVBAR */
+
+nav {
+    z-index: +99;
+}
+
+nav .container-fluid {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.logo {
+    font-size: 24px !important;
+    font-weight: 800;
+}
+
+.list-items {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.light-link {
+    color: #000 !important;
+}
+
+.dark-link {
+    color: #fff !important;
+}
+
+.revenue-card h1 {
+    font-size: 43px;
+    color: #000;
+}
+
+.banner-section {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.lets_start_main {
+    background-color: #211f50;
+    width: 180px;
+    font-size: 16px;
+    height: 53px;
+    border-radius: 100px;
+}
+
+.lets_start_main_dark{
+    background-color: #333333;
+    width: 180px;
+    font-size: 16px;
+    height: 53px;
+    border-radius: 100px;
+}
+
+.lets_start {
+    width: 182px;
+    font-size: 16px;
+    height: 54px;
+    align-items: center;
+    transform: rotate(-12deg);
+    border-radius: 50px;
+    justify-content: center;
+    color: #211f50;
+    text-transform: uppercase;
+    position: absolute;
+    left: -2px;
+    top: -14px;
+}
+
+.lets_start {
+    background-color: #e2a4ec;
+}
+
+.lets_start_dark {
+    width: 182px;
+    font-size: 16px;
+    height: 54px;
+    align-items: center;
+    transform: rotate(-12deg);
+    border-radius: 50px;
+    justify-content: center;
+    color: #211f50;
+    text-transform: uppercase;
+    position: absolute;
+    left: -2px;
+    top: -14px;
+    color: #fff;
+}
+
+.lets_start_dark {
+    background-color: #B145CC;
+}
+
+.active-mode {
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    height: 32px;
+
+}
+
+.active-mode a {
+    padding: 0px !important;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark-active-mode {
+    border: 1px solid #fff;
+    border-radius: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.login-btn-light {
+    border-radius: 45px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    height: 32px;
+}
+
+.login-btn-dark {
+    border-radius: 45px;
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+    text-transform: uppercase;
+}
+
+/* BANNER */
+
+.img {
+    padding-top: 20px;
+
+}
+
+.zIndex {
+    z-index: +999;
+}
+
+.light-img-bg {
+    background-color: #e2a4ec;
+    width: 96%;
+}
+
+.dark-img-bg {
+    background-color: #211F50;
+}
+
+.img img {
+    width: 100%;
+}
+
+.banner-section {
+    margin-top: 50px;
+}
+
+.download-box {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding-bottom: 80px;
+}
+
+.download-box h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    padding: 25px;
+    padding-bottom: 10px;
+}
+
+.download-box img {
+    width: 150px;
+}
+
+.download-box p {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.40);
+    padding-top: 23px;
+}
+
+.download-box-main {
+    padding-bottom: 120px;
+}
+
+.apple-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #e2a4ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -45px;
+    position: absolute;
+    bottom: 124px;
+}
+
+.apple-icon img {
+    width: 30px;
+}
+
+
+
+.add-icon img {
+    width: 32px;
+}
+
+/* REVENUE CARD */
+
+.revenue-card {
+    z-index: 1000;
+    width: 350px;
+    height: 250px;
+    background-color: #C2C6DA;
+    padding: 25px;
+    margin-left: 30px !important;
+    margin-top: -160px;
+
+}
+
+.revenue-card p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 7px;
+}
+
+.revenue-card span {
+    background-color: #211F50;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.for-rect div {
+    width: 30px;
+}
+
+.for-rect>div:nth-child(1) {
+    height: 30px;
+    background-color: #a2a5be;
+}
+
+.for-rect>div:nth-child(2) {
+    height: 70px;
+    background-color: #a2a5be;
+}
+
+.for-rect>div:nth-child(3) {
+    height: 50px;
+    background-color: #a2a5be;
+}
+
+.for-rect>div:nth-child(4) {
+    height: 90px;
+    background-color: #211F50;
+}
+
+/* BANNER TEXT */
+
+.ban-head-col {
+    /* position: absolute; */
+}
+
+.banner-heading {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 90px;
+}
+
+.advice img {
+    width: 39px;
+    height: 26px;
+}
+
+.advice p {
+    font-size: 18px;
+    font-weight: 600;
+    /* color: rgba(0, 0, 0, 0.40); */
+}
+
+.wealth {
+    font-size: 48px;
+    font-weight: 600;
+    /* color: rgba(0, 0, 0, 0.40); */
+    line-height: 56px;
+}
+
+.increase {
+    display: flex;
+    align-items: flex-end;
+    height: 260px;
+}
+
+.white-banner-text {
+    color: rgba(0, 0, 0, 0.40);
+}
+
+.dark-banner-text {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 1600px) {
+    .banner-heading {
+        font-size: 129px;
+        font-weight: 700;
+        line-height: 103px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .main::after,
+    .main::before {
+        background-color: transparent;
+        /* width: 100%; */
+        height: 0 !important;
+        content: none !important;
+    }
+
+    nav .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main {
+        background-color: #e7e8f0;
+        width: 88%;
+        margin: 35px auto;
+    }
+
+    .light-img-bg {
+        background-color: #e2a4ec;
+        width: 100%;
+    }
+
+    .heromlminus {
+        margin-left: -25px;
+    }
+
+    .banner-heading {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 30px;
+
+        text-align: end;
+        font-weight: 900;
+    }
+
+    .add-icon {
+        display: none;
+    }
+
+    .revenue-card {
+        z-index: 1000;
+        width: 260px;
+        height: 236px;
+        background-color: #C2C6DA;
+        padding: 19px;
+        margin-left: auto;
+        margin-right: 22px;
+        margin-top: -60px;
+        position: relative;
+    }
+
+    .revenue-card h1 {
+        font-size: 32px;
+        color: #000;
+    }
+
+    .for-rect div {
+        width: 25px;
+    }
+
+    .buttonMtTop {
+        margin-top: 20px;
+    }
+
+    .download-box {
+        padding-left: 25px;
+        padding-right: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        padding-bottom: 80px;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1600px) {
+    .revenue-card {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+    .revenue-card {
+        margin-left: 45px;
+        margin-top: -170px;
+        width: 325px;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+    .revenue-card {
+        margin-left: 26px;
+        width: 317px;
+    }
+
+    .banner-section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    nav .container-fluid {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+    .revenue-card {
+        margin-left: 26px;
+        width: 317px;
+    }
+
+    .banner-section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    nav .container-fluid {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
