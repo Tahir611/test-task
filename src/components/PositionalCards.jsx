@@ -3,9 +3,6 @@ import picture from "../assets/images/man-Image.png";
 import baloon from "../assets/images/Image.png";
 import apple from "../assets/images/apple-icon.png";
 import addIcon from "../assets/images/add_icon.png";
-import darkIcon from "../assets/images/dark-Icon.png"
-import circle from "../assets/images/circle.png"
-import icon from "../assets/images/Icon.png";
 const PositionalCards = ({ isDark }) => {
   return (
     <React.Fragment>
