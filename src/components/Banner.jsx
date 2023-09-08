@@ -7,9 +7,6 @@ import whiteCircle from "../assets/images/white-Vector.png"
 const Banner = ({ isDark }) => {
   return (
     <React.Fragment>
-      {/* CARDS */}
-
-      {/* <PositionalCards isDark={isDark} /> */}
 
       {/* BANNER TEXT */}
 
@@ -60,7 +57,7 @@ const Banner = ({ isDark }) => {
           </div>
 
           <div className="col-md-6 position-relative zIndex">
-            <PositionalCards />
+            <PositionalCards isDark={isDark}/>
           </div>
         </div>
         <div className="row w-100 position-relative z-2">

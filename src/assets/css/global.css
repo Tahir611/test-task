@@ -205,6 +205,7 @@ nav .container-fluid {
 
 .dark-img-bg {
     background-color: #211F50;
+    width: 96%;
 }
 
 .img img {
@@ -325,9 +326,6 @@ nav .container-fluid {
 
 /* BANNER TEXT */
 
-.ban-head-col {
-    /* position: absolute; */
-}
 
 .banner-heading {
     font-size: 100px;
